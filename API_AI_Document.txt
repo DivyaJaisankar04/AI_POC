@@ -1,0 +1,10 @@
+Postman → ASP.NET API → AgentService → HttpClient → Ollama → Local Model → Response → Back to API → Postman
+
+🔄 End-to-End Flow (simple)
+Postman sends request
+Controller receives it
+Calls AgentService
+Service calls Ollama
+Ollama runs model
+Response comes back
+API returns result
